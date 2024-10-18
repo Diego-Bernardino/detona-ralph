@@ -1,0 +1,53 @@
+@import url(./reset.css);
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../images/wall.png);
+}
+
+.game-stats {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    border-bottom: 5px solid #ffd700;
+}
+
+h2.label {
+    color: #ff0000;
+}
+
+.lives {
+    display: flex;
+    align-items: center;
+}
+
+.panel {
+    width: 470px;
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#030325, #00008b, #52524d);
+    border: 10px solid #4b240d;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: 8px solid #4b240d;
+    background-color: transparent;
+}
+
+.enemy{
+    background: url(../images/ralph.png) center / cover;
+}
+
+.game-stats h2 + h2 {
+    margin-top: 0.8rem;
+}
